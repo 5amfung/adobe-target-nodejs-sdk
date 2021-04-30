@@ -3,8 +3,8 @@ const TargetClient = require("@adobe/target-nodejs-sdk");
 const options = {
   client: 'adobesummit2018',
   organizationId: '65453EA95A70434F0A495D34@AdobeOrg',
-  decisioningMethod: 'on-device',
-  // decisioningMethod: 'server-side',
+  // decisioningMethod: 'on-device',
+  decisioningMethod: 'server-side',
   propertyToken: 'a4d17d78-cb39-6171-b12d-a222a62ebe49',
   events: {
     clientReady,
